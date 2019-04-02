@@ -1,512 +1,353 @@
-<!DOCTYPE html>
-<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="zh-CN">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no", user-scalable=no">
+  <title>Phoenix的小窝</title>
+  <link rel="shortcut icon" href="">
+  
     
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="/css/atom-one-dark.css">
+    
+      <link rel="stylesheet" href="/css/jquery.fancybox.css">
+    
+      <link rel="stylesheet" href="/css/nprogress.min.css">
+    
+      <link rel="stylesheet" href="/css/valine.css">
+    
+      <link rel="stylesheet" href="/css/life.css">
+    
+  
 
-    
+  
 
-    
-
-
-
-    <meta charset="utf-8">
-    
-    
-    
-    
-    <title>Phoenix的小窝</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <meta name="theme-color" content="#3F51B5">
-    
-    
-    <meta name="keywords" content="">
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Phoenix的小窝">
-<meta property="og:url" content="https://meow-cat.github.io/w77w/index.html">
-<meta property="og:site_name" content="Phoenix的小窝">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Phoenix的小窝">
-    
-    <link rel="shortcut icon" href="/w77w/favicon.ico">
-    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
-    <script>window.lazyScripts=[]</script>
-
-    <!-- custom head -->
-    
-
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  
+  
+  
+    <script src="/js/jquery-2.2.4.min.js"></script>
+  
+    <script src="https://cdn1.lncld.net/static/js/3.1.0/av-min.js"></script>
+  
+    <script src="/js/jquery.pjax.js"></script>
+  
+    <script src="/js/nprogress.min.js"></script>
+  
+    <script src="/js/tether.min.js"></script>
+  
+    <script src="/js/bootstrap.min.js"></script>
+  
+    <script src="/js/highlight.min.js"></script>
+  
+    <script src="/js/highlightjs-line-numbers.min.js"></script>
+  
+    <script src="/js/jquery.fancybox.js"></script>
+  
+    <script src="/js/jquery.qrcode.min.js"></script>
+  
+    <script src="/js/Valine.min.js"></script>
+  
+  
 </head>
-
 <body>
-    <div id="loading" class="active"></div>
+<script>AV.init({appId:'',appKey:''});</script>
+<script type="text/javascript">
+      var config = {
+            ClasS: 'Counter',
+            el:'.views',
+            elP: '.views-post'
+      }
+</script>
+<div class="container">
+    <div class="row blog-box-shadow">
+        <!--博客主栏开始-->
+        <div class="col-xl-9 col-lg-12 blog-main" id="pjax-box">
+            <header class="blog-header">
+                <a href="https://meow-cat.github.io/w77w" class="blog-header-mobile-title">Phoenix的小窝</a>
+                <a href="javascript:;" class="blog-header-navbar-btn"><i class="fa fa-bars"></i></a>
+                <nav class="blog-header-navbar blog-header-fixed">
+                    <ul class="blog-navbar-links">
+                        
+                          <li class="blog-nav-item"><a href="/" class="transition">首页</a></li>
+                        
+                          <li class="blog-nav-item"><a href="/about/" class="transition">关于</a></li>
+                        
+                          <li class="blog-nav-item"><a href="/links/" class="transition">链接</a></li>
+                        
+                        <div class="blog-navbar-right">
+                            <form action="">
+                                <div class="input-group">
+                                    <input type="text" class="blog-header-search" placeholder="search...">
+                                    <buttn type="submit" class="blog-header-search-btn"><i class="fa fa-search"></i></buttn>
+                                </div>
+                            </form>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+                
+<div class="blog-main-post">
+	<div class="index-post-br"></div>
+  
 
-    <aside id="menu"  >
-  <div class="inner flex-row-vertical">
-    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
-        <i class="icon icon-lg icon-close"></i>
-    </a>
-    <div class="brand-wrap" style="background-image:url(/w77w/img/brand.jpg)">
-      <div class="brand">
-        <a href="/w77w/" class="avatar waves-effect waves-circle waves-light">
-          <img src="/w77w/img/avatar.jpg">
-        </a>
-        <hgroup class="introduce">
-          <h5 class="nickname">五工几-Phoenix</h5>
-          <a href="mailto:wfq1964675833@163.com" title="wfq1964675833@163.com" class="mail">wfq1964675833@163.com</a>
-        </hgroup>
-      </div>
-    </div>
-    <div class="scroll-wrap flex-col">
-      <ul class="nav">
-        
-            <li class="waves-block waves-effect active">
-              <a href="/w77w/"  >
-                <i class="icon icon-lg icon-home"></i>
-                主页
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/w77w/archives"  >
-                <i class="icon icon-lg icon-archives"></i>
-                归档
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/w77w/tags"  >
-                <i class="icon icon-lg icon-tags"></i>
-                标签
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="https://github.com/Meow-Cat?tab=repositories" target="_blank" >
-                <i class="icon icon-lg icon-github"></i>
-                git
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/w77w/custom"  >
-                <i class="icon icon-lg icon-link"></i>
-                测试
-              </a>
-            </li>
-        
-      </ul>
-    </div>
-  </div>
-</aside>
 
-    <main id="main">
-        <header class="top-header" id="header">
-    <div class="flex-row">
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
-          <i class="icon icon-lg icon-navicon"></i>
-        </a>
-        <div class="flex-col header-title ellipsis">Phoenix的小窝</div>
-        
-        <div class="search-wrap" id="search-wrap">
-            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
-                <i class="icon icon-lg icon-chevron-left"></i>
-            </a>
-            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
-            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
-                <i class="icon icon-lg icon-search"></i>
-            </a>
-        </div>
-        
-        
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
-            <i class="icon icon-lg icon-share-alt"></i>
-        </a>
-        
-    </div>
-</header>
-<header class="content-header index-header">
 
-    <div class="container fade-scale">
-        <h1 class="title">Phoenix的小窝</h1>
-        <h5 class="subtitle">
+<article class="blog-post-block">
+    
+
+    <div class="blog-post-block-padding">
+        <a href="/w77w/2018/12/03/李开复给女儿的信：你该如何度过大学生涯 - 副本/">李开复给女儿的信：你该如何度过大学生涯</a>
+        <section>
             
                 
+                Dear Daughter: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As we drove off from Columbia, I wanted to write a letter to you to tell you all that
+                ...
             
-        </h5>
-    </div>
-
-    
-
-
-</header>
-
-<div class="container body-wrap">
-
-    <ul class="post-list">
-    
-        <li class="post-list-item fade">
-            <article id="post-李开复给女儿的信：你该如何度过大学生涯 - 副本"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-12-03 17:23:57" datetime="2018-12-03T09:23:57.975Z"  itemprop="datePublished">2018-12-03</time>
-
+        </section>
+        <footer>
         
-
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/w77w/2018/12/03/李开复给女儿的信：你该如何度过大学生涯 - 副本/">李开复给女儿的信：你该如何度过大学生涯</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        Dear Daughter: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As we drove off from Columbia, I wanted to write a letter to you to tell you all that is on my mind.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First, I want to tell ...
-    
-
-        <a href="/w77w/2018/12/03/李开复给女儿的信：你该如何度过大学生涯 - 副本/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
+            <time datetime="2018-12-03T09:23:57.975Z"><i class="fa fa-clock-o"></i>2018-12-03</time>
         
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/书信/">书信</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/英语美文/">英语美文</a></li></ul>
-
+        
+        
+        
+        
+        </footer>
     </div>
-    
 </article>
 
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-人生的四季"
-  class="article-card article-type-post" itemprop="blogPost">
 
-    <div class="post-meta">
-        <time class="post-time" title="2018-11-08 11:24:36" datetime="2018-11-08T03:24:36.251Z"  itemprop="datePublished">2018-11-08</time>
-
-        
-
-
-    </div>
-
+<article class="blog-post-block">
     
 
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/w77w/2018/11/08/人生的四季/">人生的四季</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        Four seasons of the life
+    <div class="blog-post-block-padding">
+        <a href="/w77w/2018/11/08/人生的四季/">人生的四季</a>
+        <section>
+            
+                
+                Four seasons of the life
 Four seasons to fill up a year’s time, A person’s heart also contains four seasons.
-In the spring of his youthful, in an instant, Clear handsome reward absorbed all of beat...
-    
-
-        <a href="/w77w/2018/11/08/人生的四季/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/书信/">书信</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/英语美文/">英语美文</a></li></ul>
-
-    </div>
-    
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-json格式的字符串和list之间的互相转换"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-10-14 15:26:27" datetime="2018-10-14T07:26:27.053Z"  itemprop="datePublished">2018-10-14</time>
-
-        
-
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/w77w/2018/10/14/json格式的字符串和list之间的互相转换/">json格式的字符串和list之间的互相转换</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        ​阿里的fastJson.jar：
-//list转换为jsonList list = new ArrayList();String str=JSON.toJSON(list).toString();//json转换为listList list = new ArrayList();list = JSONObject.parseArray(jasonArray, Person.class);
-    
-
-        <a href="/w77w/2018/10/14/json格式的字符串和list之间的互相转换/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/String/">String</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/json/">json</a></li></ul>
-
-    </div>
-    
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-PleaseDressMeinRed"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-10-12 10:56:45" datetime="2018-10-12T02:56:45.519Z"  itemprop="datePublished">2018-10-12</time>
-
-        
-
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/w77w/2018/10/12/PleaseDressMeinRed/">Please Dress Me in Red</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In my dual profession as an educator and health care provider, I have worked with numerous children infected with the virus that causes AIDS. The relationships that I ...
-    
-
-        <a href="/w77w/2018/10/12/PleaseDressMeinRed/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/散文/">散文</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/英语美文/">英语美文</a></li></ul>
-
-    </div>
-    
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-WINDFLOWERS"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2018-10-12 10:37:54" datetime="2018-10-12T02:37:54.068Z"  itemprop="datePublished">2018-10-12</time>
-
-        
-
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/w77w/2018/10/12/WINDFLOWERS/">WindFlowers(风飞花)</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        ​Wind Flowers，Wind Flowers    
-my father told me not to go near them
-he said he feared them always and he told me that they carried him away
-Wind Flowers,beautiful windflowers
-I count not wait to t...
-    
-
-        <a href="/w77w/2018/10/12/WINDFLOWERS/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-    <div class="post-footer">
-        
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/英语美文/">英语美文</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/w77w/tags/诗文/">诗文</a></li></ul>
-
-    </div>
-    
-</article>
-
-        </li>
-    
-    </ul>
-
-    
-
-</div>
-
-        <footer class="footer">
-    <div class="top">
-        
-
-        <p>
+In the spring of his 
+                ...
             
-            <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
-        </p>
+        </section>
+        <footer>
+        
+            <time datetime="2018-11-08T03:24:36.251Z"><i class="fa fa-clock-o"></i>2018-11-08</time>
+        
+        
+        
+        
+        
+        </footer>
     </div>
-    <div class="bottom">
-        <p><span>五工几-Phoenix &copy; 2019</span>
-            <span>
+</article>
+
+
+<article class="blog-post-block">
+    
+
+    <div class="blog-post-block-padding">
+        <a href="/w77w/2018/10/14/json格式的字符串和list之间的互相转换/">json格式的字符串和list之间的互相转换</a>
+        <section>
+            
                 
-                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
-            </span>
-        </p>
+                ​阿里的fastJson.jar：
+//list转换为jsonList list = new ArrayList();String str=JSON.toJSON(list).toString();//json转换为listList list = new Ar
+                ...
+            
+        </section>
+        <footer>
+        
+            <time datetime="2018-10-14T07:26:27.053Z"><i class="fa fa-clock-o"></i>2018-10-14</time>
+        
+        
+        
+        
+        
+        </footer>
     </div>
-</footer>
-
-    </main>
-    <div class="mask" id="mask"></div>
-<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+</article>
 
 
+<article class="blog-post-block">
+    
 
-<div class="global-share" id="globalShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://meow-cat.github.io/w77w/&title=Phoenix的小窝&pic=https://meow-cat.github.io/w77w/img/avatar.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://meow-cat.github.io/w77w/&title=Phoenix的小窝&source=" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://meow-cat.github.io/w77w/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Phoenix的小窝&url=https://meow-cat.github.io/w77w/&via=https://meow-cat.github.io/w77w" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://meow-cat.github.io/w77w/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
+    <div class="blog-post-block-padding">
+        <a href="/w77w/2018/10/12/PleaseDressMeinRed/">Please Dress Me in Red</a>
+        <section>
+            
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In my dual profession as an educator and health care provider, I have worked with numerous children 
+                ...
+            
+        </section>
+        <footer>
+        
+            <time datetime="2018-10-12T02:56:45.519Z"><i class="fa fa-clock-o"></i>2018-10-12</time>
+        
+        
+        
+        
+        
+        </footer>
+    </div>
+</article>
+
+
+<article class="blog-post-block">
+    
+
+    <div class="blog-post-block-padding">
+        <a href="/w77w/2018/10/12/WINDFLOWERS/">WindFlowers(风飞花)</a>
+        <section>
+            
+                
+                ​Wind Flowers，Wind Flowers    
+my father told me not to go near them
+he said he feared them always and he told me that they carrie
+                ...
+            
+        </section>
+        <footer>
+        
+            <time datetime="2018-10-12T02:37:54.068Z"><i class="fa fa-clock-o"></i>2018-10-12</time>
+        
+        
+        
+        
+        
+        </footer>
+    </div>
+</article>
+
+
+
+  
+    <nav id="pagination" class="blog-pagination">
+            <span class="page-number current">1</span>
+    </nav>
+
  </div>
 
-
-<div class="page-modal wx-share" id="wxShare">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://meow-cat.github.io/w77w/" alt="微信分享二维码">
-</div>
-
-
-
-
-    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
-<script>
-var BLOG = { ROOT: '/w77w/', SHARE: true, REWARD: false };
-
-
-</script>
-
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
-
-
-<div class="search-panel" id="search-panel">
-    <ul class="search-result" id="search-result"></ul>
-</div>
-<template id="search-tpl">
-<li class="item">
-    <a href="{path}" class="waves-block waves-effect">
-        <div class="title ellipsis" title="{title}">{title}</div>
-        <div class="flex-row flex-middle">
-            <div class="tags ellipsis">
-                {tags}
+                
+            <footer class="blog-footer">
+                <p class="blog-footer-left">Copyright ©  2019 <a href="https://meow-cat.github.io/w77w">Phoenix的小窝</a></p>
+                <p class="blog-footer-right">Powered by <a href="https://hexo.io" target="_blank">Hexo</a>,Theme <a href="https://note.isweic.com/themes-life/" target="_blank">Life</a></p>
+            </footer>
+        </div><!--博客主栏结束-->
+        <!--博客侧边栏开始-->
+        <div class="col-xl-3 blog-sidebar">
+            <div class="blog-sidebar-title">
+                <a href="">Phoenix的小窝</a>
             </div>
-            <time class="flex-col time">{date}</time>
-        </div>
-    </a>
-</li>
-</template>
-
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
-
-
-
-
-
-
-
-
-<script>
-(function() {
-    var OriginTitile = document.title, titleTime;
-    document.addEventListener('visibilitychange', function() {
-        if (document.hidden) {
-            document.title = '死鬼去哪里了！';
-            clearTimeout(titleTime);
-        } else {
-            document.title = '(つェ⊂)咦!又好了!';
-            titleTime = setTimeout(function() {
-                document.title = OriginTitile;
-            },2000);
-        }
+            <div class="blog-sidebar-logo">
+                <img src="http://dl.weic96.cn/logo.png">
+            </div>
+            <div class="blog-sidebar-count blog-sidebar-padding">
+                <div class="blog-sidebar-count-left">
+                    <p class="blog-sidebar-count-p">5</p>
+                    <span class="blog-sidebar-count-span">文章</span>
+                </div>
+                <div class="blog-sidebar-count-right">
+                    <p class="blog-sidebar-count-p">6</p>
+                    <span class="blog-sidebar-count-span">标签</span>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="blog-sidebar-icon blog-sidebar-padding">
+                <ul>
+                    <li><a href="" class="icon-github" target="_blank" data-toggle="tooltip" data-placement="top" title="Github"><i class="fa fa-github"></i></a></li>
+                    <li><a href="" class="icon-weibo" target="_blank" data-toggle="tooltip" data-placement="top" title="新浪微博"><i class="fa fa-weibo"></i></a></li>
+                    <li><a href="" class="icon-twitter" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <!--<li><a href="" class="icon-facebook" target="_blank" data-toggle="tooltip" data-placement="top" title="FaceBook"><i class="fa fa-facebook"></i></a></li>-->
+                    <li><a href="mailto:" class="icon-email" data-toggle="tooltip" data-placement="top" title="E-Mail"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="" class="icon-rss" data-toggle="tooltip" target="_blank" data-placement="top" title="RSS"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div>
+            <div class="blog-sidebar-categories">
+                <h4 class="blog-sidebar-h4"><i class="fa fa-folder-open"></i>&nbsp;文章分类</h4>
+                <ul class="list-group blog-sidebar-padding">
+                  
+                </ul>
+            </div>
+            <div class="blog-sidebar-tags">
+                <h4 class="blog-sidebar-h4"><i class="fa fa-tag"></i>&nbsp;标签云</h4>
+                <ul class="blog-sidebar-tags-ul blog-sidebar-padding">
+                  
+                    
+                      <li><a href="/w77w/tags/英语美文/" class="tag-could" data-toggle="tooltip" data-placement="top" title="英语美文">英语美文</a></li>
+                    
+                      <li><a href="/w77w/tags/散文/" class="tag-could" data-toggle="tooltip" data-placement="top" title="散文">散文</a></li>
+                    
+                      <li><a href="/w77w/tags/诗文/" class="tag-could" data-toggle="tooltip" data-placement="top" title="诗文">诗文</a></li>
+                    
+                      <li><a href="/w77w/tags/json/" class="tag-could" data-toggle="tooltip" data-placement="top" title="json">json</a></li>
+                    
+                      <li><a href="/w77w/tags/String/" class="tag-could" data-toggle="tooltip" data-placement="top" title="String">String</a></li>
+                    
+                      <li><a href="/w77w/tags/书信/" class="tag-could" data-toggle="tooltip" data-placement="top" title="书信">书信</a></li>
+                    
+                  
+                </ul>
+            </div>
+            <script>
+              // 博客侧栏标签云随机色
+              var tag_cloud = $('.tag-could');
+              tag_cloud.each(function () {
+                  var Cnum = 9;
+                  var Crand = parseInt(Math.random() * Cnum);
+                  $(this).addClass("tag-could" + Crand);
+              })
+            </script>
+            <!--返回顶部按钮-->
+            <div class="retop">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div><!--博客侧边栏结束-->
+    </div>
+</div>
+<script src="/js/LeanStatistics.min.js"></script>
+<script src="/js/Life.js"></script>
+<script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+    otherF();
+    LeanStatistics();
+    $(document).pjax('a', '#pjax-box', {fragment:'#pjax-box', timeout:8000}).on('pjax:complete', function() {
+      $('pre code').each(function(i, block){
+        hljs.highlightBlock(block);
+      })
+      $('code.hljs').each(function(i, block) {
+        hljs.lineNumbersBlock(block);
+      });
+      LeanStatistics();
+    }).on('pjax:start', function() { NProgress.start(); }).on('pjax:end',   function() {
+      NProgress.done();
+      otherF();
     });
-})();
 </script>
-
-
-
 </body>
 </html>
