@@ -21,11 +21,7 @@
   <entry>
     <title><![CDATA[json格式的字符串和list之间的互相转换]]></title>
     <url>%2Fw77w%2F2018%2F10%2F14%2Fjson%E6%A0%BC%E5%BC%8F%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8Clist%E4%B9%8B%E9%97%B4%E7%9A%84%E4%BA%92%E7%9B%B8%E8%BD%AC%E6%8D%A2%2F</url>
-    <content type="text"><![CDATA[​阿里的fastJson.jar： //list转换为jsonList list = new ArrayList();String str=JSON.toJSON(list).toString();//json转换为listList list = new ArrayList();list = JSONObject.parseArray(jasonArray, Person.class);]]></content>
-      <tags>
-        <tag>json</tag>
-        <tag>String</tag>
-      </tags>
+    <content type="text"><![CDATA[阿里的fastJson.jar： list转换为jsonList list = new ArrayList(); String str=JSON.toJSON(list).toString(); json转换为listList list = new ArrayList(); list = JSONObject.parseArray(jasonArray, Person.class);]]></content>
   </entry>
   <entry>
     <title><![CDATA[Please Dress Me in Red]]></title>
