@@ -24,7 +24,7 @@
     <content type="text"><![CDATA[引用jar包阿里的fastJson.jar： list转换为jsonList list = new ArrayList(); String str=JSON.toJSON(list).toString(); json转换为listList list = new ArrayList(); list = JSONObject.parseArray(jasonArray, Person.class);]]></content>
       <tags>
         <tag>list</tag>
-        <tag>JSON</tag>
+        <tag>json</tag>
       </tags>
   </entry>
   <entry>

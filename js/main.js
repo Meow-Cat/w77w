@@ -96,7 +96,6 @@
                 header.classList.remove('fixed');
             }
         },
-        
         share: function () {
 
             var pageShare = $('#pageShare'),
