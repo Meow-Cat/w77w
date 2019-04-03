@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[java中Math的用法]]></title>
+    <url>%2Fw77w%2F2019%2F04%2F03%2Fjava%E4%B8%ADMath%E7%9A%84%E7%94%A8%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[Math.sqrt(a) : 计算平方根 Math.cbrt(a) : 计算立方根 Math.pow(a,b) : 计算a的b次方 Math.max(a,b) : 计算最大值 Math.min(a,b) : 计算最小值 Math.abs(a) : 取绝对值]]></content>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[json]]></title>
     <url>%2Fw77w%2F2019%2F04%2F03%2Fjson%2F</url>
     <content type="text"><![CDATA[112撒大叔大所大时代ad阿斯达]]></content>
